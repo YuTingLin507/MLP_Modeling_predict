@@ -1,0 +1,17 @@
+# Python 虛擬環境與快取
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 輸出圖表與資料夾（可依需求調整）
+output/
+2019_data/
+
+# 原始大檔案（Excel）
+*.xlsx
+*.xls
+
+# 模型權重與補值檔（超過 100MB 無法直接上傳）
+*.pth
+*.pkl
